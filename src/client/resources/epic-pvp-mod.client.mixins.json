@@ -1,0 +1,15 @@
+{
+	"required": true,
+	"package": "com.troll.mixin.client",
+	"compatibilityLevel": "JAVA_8",
+	"mixins": [
+		"ExampleClientMixin",
+		"SprintCancelMixin"
+	],
+	"client": [
+		"MouseAccessor"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
